@@ -1,0 +1,49 @@
+.main__block{
+    padding: 115px 24px 150px 24px;
+}
+.main__block-title{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--title-font);
+    color: var(--burger-button-color);
+    line-height: 48px;
+}
+.main__block-text{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    margin: 35px 0;
+}
+.main__button-about{
+    background-color: var(--border-color);
+    color: var(--link-color);
+    padding: 15px 28px;
+    width: 126.4px;
+    border-width: 1px;
+    border-radius: 50px;
+    font-size: 16.5px;
+    font-weight: 600;
+    font-family: var(--title-font);
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.main__button-categories{
+    background-color: none;
+    padding: 8px 28px;
+    border: solid;
+    width: 170.7px;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    font-size: 16.5px;
+    font-weight: 600;
+    font-family: var(--title-font);
+    text-decoration: none;
+}
+.main__block-buttons{
+    display: flex;
+    flex-direction: column;
+}
