@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+:root {
+    --title-color: #3c3731;
+    --text-color: #958b7e;
+    --border-color: #ffe6d4;
+    --form-color: #e6e3e3;
+    --accent-color: #45c1c7;
+    --link-color: #ed6435;
+    --burger-button-color: #3c3731;
+    --burger-item-color: #6B6B6B;
+    --menu-color: rgb(250, 244, 242);
+    --text-font: 'PT Sans', sans-serif;
+    --title-font: 'Baloo 2', sans-serif;
+
+    --button-text: 'Source Sans Pro', sans-serif;
+}
+  
+img {
+    width: 100%;
+    display: block;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
