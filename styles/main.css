@@ -29,6 +29,10 @@
     margin-top: 15px;
     margin-bottom: 20px;
 }
+.main__button-about:hover{
+    background-color: var(--button-hover-color);
+    color: var(--accent-color);
+}
 .main__button-categories{
     background-color: none;
     padding: 8px 28px;
@@ -42,6 +46,10 @@
     font-weight: 600;
     font-family: var(--title-font);
     text-decoration: none;
+}
+.main__button-categories:hover{
+    background-color: var(--accent-color);
+    color: white;
 }
 .main__block-buttons{
     display: flex;

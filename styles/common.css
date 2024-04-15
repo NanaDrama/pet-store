@@ -21,15 +21,18 @@
     --menu-color: rgb(250, 244, 242);
     --text-font: 'PT Sans', sans-serif;
     --title-font: 'Baloo 2', sans-serif;
-
-    --button-text: 'Source Sans Pro', sans-serif;
+    --button-hover-color: rgb(178, 231, 233);
 }
   
 img {
     width: 100%;
     display: block;
 }
-  
+h2{
+    font-family: var(--title-font);
+    font-size: 30px;
+    font-weight: 700;
+}
 .container {
     max-width: 1200px;
     margin: auto;

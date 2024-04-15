@@ -90,6 +90,9 @@ header {
     font-weight: 600;
     text-decoration: none;
 }
+.nav__button:hover{
+    color: var(--link-color);
+}
 .header__media__icon{
     width: 30px;
     height: 30px;

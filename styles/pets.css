@@ -1,0 +1,64 @@
+.pets__block{
+    padding: 0 24px;
+}
+.pets__block-title{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.pets__block-bouns{
+    height: 32px;
+    align-items: center;
+    margin-top: 25px;
+}
+.pets__block-text{
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 25px auto;
+}
+.pets__block-carosell{
+    position: relative;
+    width: 100%;
+}
+.pets__carosell-card{
+
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--border-color);
+    padding: 33px 20px;
+    margin: 15px -100% 15px 15px;
+    
+}
+
+.pets__card-img{
+    width: 70px;
+    height: 70px;
+    border-width: 1px;
+    border-radius: 60px;
+    align-items: center;
+    margin: auto;
+}
+.pets__card-title{
+    font-family: var(--title-font);
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+.pets__card-text{
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 0 15px;
+}
